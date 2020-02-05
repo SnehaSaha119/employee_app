@@ -11,6 +11,7 @@ public class EmployeeOps {
 	
 	public int getEmployee()
 	{
+		System.out.println("EmployeeOps.getEmployee()");
 		return empMap.size();
 	}
 	
